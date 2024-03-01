@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thai Massage Vellmar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Thai Massage Vellmar</h1>
+        <nav>
+            <a href="#about" class="active-link">Über Uns</a>
+            <a href="#services">Angebote</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+    </header>
+
+    <section class="about">
+        <h2>Über Uns</h2>
+        <p>Willkommen in unserem Thai-Massage-Salon. 
+            Wir bieten traditionelle Thai-Massagen an,
+            die Ihnen helfen, sich zu entspannen und zu regenerieren.
+        </p>
+
+        <button class="to-offers">Zu den Angeboten</button>
+    </section>
+
+    <section class="services">
+
+        <h2>Angebote</h2>
+
+        <div class="offer-container">
+            <!-- Offer 1 -->
+            <div class="offer-box">
+                <!-- <img src="offer1.jpg" alt="Offer 1"> -->
+                <h3>Thai Yoga Massage</h3>
+                <img src="image1.jpg" alt="Offer 1">
+                <p>Relax and rejuvenate with our Thai Yoga Massage.</p>
+                <a class="offer-button" href="#">Book Now  50€</a>
+            </div>
+
+            <!-- Offer 2 -->
+            <div class="offer-box">
+                <!-- <img src="offer2.jpg" alt="Offer 2"> -->
+                <h3>Thai Herbal Massage</h3>
+                <img src="image2.png" alt="Offer 2">
+                <p>Experience the healing benefits of Thai Herbal Compress Massage.</p>
+                <a class="offer-button" href="#">Book Now 50€</a>
+            </div>
+
+            <!-- Offer 3 -->
+            <div class="offer-box">
+                <!-- <img src="offer3.jpg" alt="Offer 3"> -->
+                <h3>Aromatherapy Massage</h3>
+                <img src="image3.jpg" alt="Offer 3">
+                <p>Indulge in the soothing scents of Aromatherapy Massage.</p>
+                <a class="offer-button" href="#">Book Now  50€</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Kontaktieren sie Uns</h2>
+        <div class="contact-form">
+            <form action="send_email.php" method="post">
+                <input class="form-input" type="text" name="name" placeholder="Your Name" required>
+                <input class="form-input" type="email" name="email" placeholder="Your Email" required>
+                <textarea class="form-input" name="message" placeholder="Your Message" rows="4" required></textarea>
+                <button class="form-button" type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Thai Massage Vellmar</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
